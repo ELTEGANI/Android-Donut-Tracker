@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/donutListFragment">
+
+    <fragment
+        android:id="@+id/donutListFragment"
+        android:name="com.example.androiddonuttracker.donutlist.DonutListFragment"
+        android:label="donut_list_fragment"
+        tools:layout="@layout/donut_list_fragment" >
+        <action
+            android:id="@+id/action_donutListFragment_to_donutDailogFragment"
+            app:destination="@id/donutDailogFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/donutDailogFragment"
+        android:name="com.example.androiddonuttracker.donutdailog.DonutDailogFragment"
+        android:label="donut_dailog_fragment"
+        tools:layout="@layout/donut_dailog_fragment" />
+</navigation>

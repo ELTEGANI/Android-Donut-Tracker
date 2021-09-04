@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/donut_with_sprinkles.xml" value="0.21145833333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/donut_dailog_fragment.xml" value="0.1816123188405797" />
+        <entry key="app/src/main/res/layout/donut_list_fragment.xml" value="0.1816123188405797" />
       </map>
     </option>
   </component>
