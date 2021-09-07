@@ -12,6 +12,7 @@ class DonutListFragment : Fragment() {
 
     private lateinit var viewModel: DonutListViewModel
 
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
        val binding = DonutListFragmentBinding.bind(view)
@@ -22,11 +23,7 @@ class DonutListFragment : Fragment() {
        }
     }
 
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
+    override fun onCreateView(inflater: LayoutInflater,container: ViewGroup?,savedInstanceState: Bundle?): View? {
         return DonutListFragmentBinding.inflate(inflater, container,false).root
     }
 
